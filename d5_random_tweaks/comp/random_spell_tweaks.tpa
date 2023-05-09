@@ -1888,7 +1888,7 @@ END
 
 DEFINE_ACTION_FUNCTION tweak_moment_of_prescience BEGIN
 // make not breachable
-COPY_EXISTING ~sppr603.spl~ ~override~
+COPY_EXISTING ~spwi808.spl~ ~override~
   WRITE_BYTE 0x27 0
 IF_EXISTS BUT_ONLY
 
